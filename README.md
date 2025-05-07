@@ -1,3 +1,4 @@
+
 # Сервер таблицы лидеров для игры Rogal
 
 Данный сервер предоставляет API для работы с таблицей лидеров игры.
@@ -55,4 +56,3 @@ GET `/api/leaderboard/player/{playerName}`
 ### Получение лучшего результата игрока
 
 GET `/api/leaderboard/player/{playerName}/best`
-

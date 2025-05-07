@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="leaderboard-server-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/leaderboard-server-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

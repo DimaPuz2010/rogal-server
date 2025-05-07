@@ -1,0 +1,7 @@
+ru\myitschool\rogal\leaderboard\controller\LeaderboardController.class
+ru\myitschool\rogal\leaderboard\LeaderboardServerApplication.class
+ru\myitschool\rogal\leaderboard\model\PlayerScore.class
+ru\myitschool\rogal\leaderboard\repository\PlayerScoreRepository.class
+ru\myitschool\rogal\leaderboard\service\LeaderboardService.class
+ru\myitschool\rogal\leaderboard\config\CorsConfiguration$1.class
+ru\myitschool\rogal\leaderboard\config\CorsConfiguration.class

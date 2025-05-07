@@ -1,0 +1,1 @@
+java -jar leaderboard-server-1.0.0.jar --server.address=26.185.166.45 --server.port=443

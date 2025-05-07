@@ -9,22 +9,16 @@
 
 ## Запуск сервера
 
-### Компиляция
-
-```bash
-mvn clean package
-```
-
 ### Запуск на стандартном порту (8080)
 
 ```bash
-java -jar target/leaderboard-server-1.0.0.jar
+java -jar leaderboard-server-1.0.0.jar
 ```
 
 ### Запуск с указанием IP и порта
 
 ```bash
-java -jar target/leaderboard-server-1.0.0.jar --server.address=192.168.1.10 --server.port=8090
+java -jar leaderboard-server-1.0.0.jar --server.address=192.168.1.10 --server.port=8090
 ```
 
 Или можно изменить настройки в файле `application.properties`:
@@ -62,10 +56,3 @@ GET `/api/leaderboard/player/{playerName}`
 
 GET `/api/leaderboard/player/{playerName}/best`
 
-## Настройка клиента (игры)
-
-В файле `LeaderboardAPI.java` необходимо изменить адрес сервера:
-
-```java
-private static final String SERVER_URL = "http://ВАШ_IP:8080/api/leaderboard";
-``` 
